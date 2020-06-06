@@ -23,13 +23,21 @@ const VideoDetail = ({ video }) => {
                     frameBorder="0" 
                     height="100%" 
                     width="100%"
-                    title="Video Player" src={videoSrc}/>
+                    title="Video Player" 
+                    src={videoSrc}
+                />
             </Paper>
 
             <Paper elevation={6} style={{ padding: '15px' }}>
-    <Typography variant="h4">{video.snippet.title} - {video.snippet.channelTitle}</Typography>
-    <Typography variant-="subtitle2">{video.snippet.channelTitle}</Typography>
-    <Typography>{video.snippet.description}</Typography>
+                <Typography variant="h4">
+                    {video.snippet.title} - {video.snippet.channelTitle}
+                </Typography>
+                <Typography variant-="subtitle2">
+                    {video.snippet.channelTitle}
+                </Typography>
+                <Typography variant="subtitle2">
+                    {video.snippet.description}
+                </Typography>
             </Paper>
 
         </React.Fragment>
