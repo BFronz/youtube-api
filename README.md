@@ -1,11 +1,12 @@
 # YouTube Clone
- The app fetches searched YouTube videos.
+ The app fetches searched YouTube videos. 
+
 
 ### Installing
 
 ```
  
-clone https://github.com/BFronz/youtube-api.git
+ clone https://github.com/BFronz/youtube-api.git
 
 npm install package.json
 
